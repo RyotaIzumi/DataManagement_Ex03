@@ -36,10 +36,10 @@ int main() {
     playRound(3);
     std::cout << "Heads: " << countH << ", Tails: " << countT << std::endl;
     if (countH > countT) {
-        std::cout << "You won" << std::endl;
+        std::cout << name << " won" << std::endl;
     }
     else {
-        std::cout << "You lost" << std::endl;
+        std::cout << name << " lost" << std::endl;
     }
 }
 
