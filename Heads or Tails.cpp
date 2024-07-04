@@ -24,8 +24,12 @@ std::string choose();
 
 
 int main() {
+    std::string name;
 
     srand((unsigned int)time(NULL));
+    std::cout << "Who are you?" << std::endl << "> ";
+    std::cin >> name;
+    std::cout << "Hello, " << name << "!" << std::endl;
     std::cout << "tossing a coin" << std::endl;
     playRound(1);
     playRound(2);
